@@ -1,0 +1,7 @@
+anniu_1{left:77px;top:876px}
+anniu_2{left:340px;top:876px}
+shoubiao_1{left:60px;top:439px}
+shoubiao_2{left:60px;top:435px}
+shoubiao_3{left:60px;top:440px}
+shoubiao_4{left:60px;top:431px}
+wenzi{left:65px;top:178px}

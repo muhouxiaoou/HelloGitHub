@@ -1,0 +1,5 @@
+bei{left:0;top:124}
+bolanng{left:567;top:37}
+gantan{left:405;top:31}
+guang{left:96;top:257}
+guang_2{left:10;top:145}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html> <head>
+ <meta charset="gbk">
+ <title>实现的遮罩动画</title>
+</head>
+<body>
+<img src="public/images/4/shouzhi.png" style="position: absolute"/>
+<canvas    id="aa" style="position: absolute"></canvas>
+
+</body><script>
+
+   var maskCanvas;
+   var maskContext;
+   var maskX=225;
+   var maskY=160;
+   var maskSpeedX=0;
+   var maskSpeedY=0;
+   var MASK_R=75;
+   var CANVAS_WIDTH=500;
+   var CANVAS_HEIGHT=320;
+            function pageInit(){
+                maskCanvas = document.getElementById("aa");
+
+
+                maskCanvas.width=CANVAS_WIDTH;
+                maskCanvas.height=CANVAS_HEIGHT;
+
+                maskCanvas.style.position="absolute";
+                 maskContext=maskCanvas.getContext("2d");
+
+                resetSpeed();
+                setInterval(moveMask,20);
+//                moveMask();
+            }
+
+            function resetSpeed(){
+                maskSpeedX=Math.random()*10-5;
+                maskSpeedY=Math.random()*10-5;
+
+
+            }
+
+
+
+            function moveMask(){
+
+                maskContext.clearRect(0,0,CANVAS_WIDTH,CANVAS_HEIGHT);
+                maskContext.globalCompositeOperation="source-over";
+                maskContext.fillRect(0,0,CANVAS_WIDTH,CANVAS_HEIGHT);
+                maskContext.globalCompositeOperation="destination-out";
+                maskContext.beginPath();
+                maskContext.arc(maskX,maskY,MASK_R,0,Math.PI*2,true);
+                maskContext.fill();
+                MASK_R+=5
+
+//                maskX+=maskSpeedX;
+//                maskY+=maskSpeedY;
+
+//                if(maskX>=CANVAS_WIDTH-MASK_R){
+//                    maskSpeedX=-Math.abs(maskSpeedX);
+//                }
+//                if(maskX<=MASK_R){
+//                    maskSpeedX=Math.abs(maskSpeedX);
+//                }
+//                if(maskY>=CANVAS_HEIGHT-MASK_R){
+//                    maskSpeedY=-Math.abs(maskSpeedY);
+//                }
+//                if(maskY<=MASK_R){
+//                    maskSpeedY=Math.abs(maskSpeedY);
+//                }
+
+
+            }
+          pageInit();
+</script> 
+</html>

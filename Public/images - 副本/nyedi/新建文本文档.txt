@@ -1,0 +1,2 @@
+baizhi_1{left:0;top:41}
+baizhi_2{left:0;top:66}

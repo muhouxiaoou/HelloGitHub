@@ -1,0 +1,2 @@
+bai{left:0;top:41}
+chanyu{left:215;top:555}

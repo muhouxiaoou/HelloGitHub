@@ -1,0 +1,7 @@
+a{left:125;top:540}
+b{left:86;top:540}
+c{left:77;top:539}
+tu_a{left:90;top:287}
+tu_b{left:94;top:241}
+tu_c{left:111;top:252}
+wenzi{left:72;top:111}

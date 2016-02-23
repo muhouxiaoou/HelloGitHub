@@ -1,0 +1,101 @@
+
+
+body{
+	background-color:#000
+	
+	}
+
+ 
+ 
+ #wen1-but0{
+	 left:92px;top:291px;width:487px;height:53px
+	 }
+ 
+ #wen1-but1{
+	   left:92px;top:372px;width:487px;height:53px 
+	 }
+ 
+ #wen1-but2{
+	   left:92px;top:451px;width:487px;height:53px
+	 }
+	 
+#wen1-huida-but{
+	  left:133px;top:766px;width:397px;height:77px 
+	}
+	
+ 
+ #wen2-but0{
+	 left:92px;top:291px;width:487px;height:53px
+	 }
+ 
+ #wen2-but1{
+	   left:92px;top:372px;width:487px;height:53px 
+	 }
+ 
+ #wen2-but2{
+	   left:92px;top:451px;width:487px;height:53px
+	 }
+	 
+#wen2-huida-but{
+	  left:133px;top:766px;width:397px;height:77px 
+	}
+	
+	
+#paipingbg-start-but{
+	left:211px;top:567px;width:211px;height:197px; position:absolute 
+	}
+	
+	
+#photo-video{
+	left:69px;
+	top:170px;
+	}
+	
+	
+#wo-name{
+	left:197px;top:457px; font-size:32px;width:301px;border:none; background-color:transparent
+	}
+#wo-tell{
+	left:197px;top:529px; font-size:32px;width:301px;border:none; background-color:transparent
+	}
+#wo-address{
+	left:197px;top:598px; font-size:32px;width:301px;border:none; background-color:transparent
+	}
+#wo-submit{
+	left:243px;top:678px;width:178px;height:82px; position:absolute;
+	}
+	
+#zj-name{
+	left:198px;top:531px; font-size:32px;width:301px;border:none; background-color:transparent
+	}
+#zj-tell{
+	left:198px;top:600px; font-size:32px;width:301px;border:none; background-color:transparent
+	}
+#zj-address{
+	left:198px;top:672px; font-size:32px;width:301px;border:none; background-color:transparent
+	}
+	
+#zj-submit{
+	left:242px;top:756px;width:185px;height:77px; position:absolute;
+	}
+	
+	
+#mzj-submit{
+	left:247px;top:521px;width:185px;height:77px; position:absolute;
+	}
+	
+	
+#wen-qaerror-submit{
+	left:247px;top:521px;width:185px;height:77px; position:absolute;
+	}	
+#paipingbg-back-but{
+	left:63px;top:690px;width:228px;height:95px; position:absolute;
+	}
+	
+#imgtarget{
+	left:70px;top:171px;width:500px;height:500px; overflow:hidden; position:absolute;
+	}
+	
+#paipingbg-submit-but{
+	left:346px;top:690px;width:228px;height:95px; position:absolute;
+	}

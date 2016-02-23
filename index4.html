@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="target-densitydpi=device-dpi, width=640px, user-scalable=no" />
+<meta name="format-detection" content="telephone=no"/>
+<title>熊孩子家长会</title>
+<link rel="stylesheet" type="text/css" href="Public/css/app.zebra.css">
+<link rel="stylesheet" type="text/css" href="Public/css/jquery.mCustomScrollbar.min.css">
+    <script   src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+    <script src="http://s.adt100.com/weixin/share_script/viewinfo.js?v=randstr"></script>
+    <style>
+
+        #bei{left:0px;top:124px}
+        #bolanng{left:567px;top:37px}
+        #gantan{left:405px;top:31px}
+        #gantan_g{left:0px;top:0px}
+        #guang{left:165px;top:400px}
+        #guang_2{left:70px;top:290px}
+
+        #shouzhi{left:297px;top:656px}
+        #shouzhi_wz{left:297px;top:783px}
+        #wenzi_1{left:31px;top:207px}
+        #wenzi_1_g{left:31px;top:207px}
+        #wenzi_2{left:139px;top:95px}
+        #wenzi_2_gg{left:0px;top:0px}
+        #wenzi_2_2{left:139px;top:95px}
+        #wenzi_2_g{left:139px;top:95px}
+        #wenzi_3{left:50px;top:43px}
+        #xinfeng{left:130px;top:-120px}
+        #xinfeng2{left:140px;top:0px}
+        /*#xinfeng2{left:241px;top:515px}*/
+        #xinfeng_2{left:222px;top:408px}
+        #xinfeng_2_1{left:222px;top:490px}
+        #xinfeng_2_2{left:222px;top:408px}
+
+        #jiazhangshu{left:-50px;top:350px}
+
+        #bai{left:0px;top:0px;}
+        #bai_3{left:-20px;top:41px}
+        .bai_3{left:0px;top:0px}
+        #bai_2{left:0px;top:41px}
+        #chanyu{left:215px;top:514px}
+
+        #dati_1{left:0px;top:0px; width:581px;height: 768px;}
+
+        /*.beiji{left:62px;top:161px}*/
+        /*.xuanzhe{left:135px;top:525px}*/
+        /*.timu{left:65px;top:114px}*/
+
+        /*.swiper-container{width: 350px;height: 400px;position: relative;left: 100px;top: 220px;}*/
+        .beiji{left:62px;top:120px}
+        .xuanzhe{left:135px;top:484px}
+        .timu{left:65px;top:73px}
+
+        .swiper-container{width: 350px;height: 400px;position: relative;left: 100px;top: 190px;}
+        /*.swiper-wrapper{background-color: #00aced}*/
+        @-webkit-keyframes glow { 0% { -webkit-box-shadow: 0 0 12px rgba(72, 106, 170, 0.5); } 100% { -webkit-box-shadow: 0 0 12px #EAEA8B;  } }
+
+        .queding{left:246px;top:220px}
+
+        #xinxin{left:-228px;top:-228px}
+        #xinxin_g{left:-228px;top:-228px}
+        .cs_bj{left:55px;top:63px}
+        .cs_xx{left:113px;top:571px}
+
+        #anniu_1{left:337px;top:738px}
+        #anniu_2{left:78px;top:738px}
+
+        #sb_anniu_1{left:77px;top:748px}
+        #sb_anniu_2{left:340px;top:748px}
+        #shoubiao{left:180px;top:305px}
+        #shoubiao_2{left:180px;top:290px}
+        #shoubiao_3{left:180px;top:305px}
+        #shoubiao_4{left:180px;top:305px}
+
+        #sbyy{left: 196px;top: 584px;}
+
+        #shoubiao_wz{left:60px;top:621px}
+        #shoubiao_2_wz{left:60px;top:621px}
+        #shoubiao_3_wz{left:60px;top:621px}
+        #shoubiao_4_wz{left:60px;top:621px}
+        #wenzi{left:65px;top:50px}
+        #wenzi_yy{left:197px;top:687px}
+        #wenzi_3_sj{left:197px;top:698px}
+
+        #dati_1_c{left: -70px;}
+        #dati_2_a{left: -20px;}
+        #dati_2_b{left: -60px;}
+        #dati_2_c{left: -67px;}
+
+        #dati_3_a{left: -20px;}
+        #dati_3_b{left: -30px;}
+        #dati_3_c{left: 77px;}
+
+        #dati_4_a{left: -45px;}
+        #dati_4_b{left: 0px;}
+        #dati_4_c{left: 45px;}
+
+        #dati_5_a{left: 0px;}
+        #dati_5_b{left: 40px;}
+        #dati_5_c{left: 0px;}
+
+        #dati_6_a{left: -25px;}
+        #dati_6_b{left: -55px;}
+        #dati_6_c{left: 0px;}
+
+        #huadong{left:140px;}
+        #huadong_sz{left:190px;}
+
+
+
+        #wenzi_2_r1_c1{left:189px;top:229px}
+        #wenzi_2_r1_c3{left:312px;top:229px}
+        #wenzi_2_r2_c1{left:189px;top:343px}
+        #wenzi_2_r2_c2{left:264px;top:343px}
+        #wenzi_2_r2_c4{left:352px;top:343px}
+        #wenzi_3_r1_c1{left:175px;top:220px}
+        #wenzi_3_r1_c3{left:317px;top:220px}
+        #wenzi_3_r2_c1{left:175px;top:350px}
+        #wenzi_3_r2_c2{left:260px;top:350px}
+        #wenzi_3_r2_c4{left:359px;top:350px}
+        #wenzi_4_r1_c1{left:171px;top:220px}
+        #wenzi_4_r1_c3{left:311px;top:220px}
+        #wenzi_4_r2_c1{left:171px;top:353px}
+        #wenzi_4_r2_c2{left:268px;top:353px}
+        #wenzi_4_r2_c4{left:358px;top:353px}
+        #wenzi_r1_c1{left:175px;top:219px}
+        #wenzi_r1_c3{left:321px;top:219px}
+        #wenzi_r2_c1{left:175px;top:342px}
+        #wenzi_r2_c2{left:262px;top:342px}
+        #wenzi_r2_c4{left:354px;top:342px}
+
+        .hwlogo{left: 11px;top:8px;z-index: 99999999999}
+    </style>
+    <!--AdTime-->
+    <script>
+        var _tjc = _tjc || [];
+        _tjc.push(["_setAccount", "368"]);
+    </script>
+    <script type="text/javascript">STAT_ADS_ID="368";</script>
+    <script src="http://i.adt100.com/i.js"></script>
+
+    <!--CloudData-->
+    <script type="text/javascript">
+        var _paq = _paq || [];
+        _paq.push(['setTrackerUrl', 'http://datacollect.vmall.com:28080/webv1']);
+        _paq.push(['setSiteId', 'www.honor.cn']);
+        var _doc = document.getElementsByTagName('head')[0];
+        var js = document.createElement('script');
+        js.setAttribute('type', 'text/javascript');
+        js.setAttribute('src', 'http://res.vmall.com/bi/hianalytics.js');
+        _doc.appendChild(js);
+        _paq.push(['setCustomVariable',1, 'sid', '', 'page']);
+        _paq.push(['trackPageView']);
+    </script>
+
+    <!--BFD-->
+    <script type="text/javascript">
+        window["_BFD"] = window["_BFD"] || {};
+        _BFD.client_id = "honorWebsite";
+        _BFD.BFD_USER = {
+            "user_id" : "从cookie中获取user_id" //类型string，网站当前用户id，如果未登录就为0或空字符串
+        };
+        _BFD.script = document.createElement("script");
+        _BFD.script.type = "text/javascript";
+        _BFD.script.async = true;
+        _BFD.script.charset = "utf-8";
+        _BFD.script.src = 'http://dmp-collector.huawei.com/api/2.0/honorWebsite.js';
+                document.getElementsByTagName("head")[0].appendChild(_BFD.script);
+    </script>
+</head>
+<body>
+<!---->
+<audio id="fyxg" src="Public/sound/fyxg.mp3" controls class="pull-air hide" style="top:-1000px"  ></audio>
+<!---->
+<audio id="sydd" src="Public/sound/sydd.wav" controls class="pull-air hide" style="top:-1000px"  ></audio>
+<!---->
+<audio id="xbb" src="Public/sound/xbb.wav" controls class="pull-air hide" style="top:-1000px"  ></audio>
+<!---->
+<audio id="yyysy" src="Public/sound/yyy.mp3" controls class="pull-air hide" style="top:-1000px"  ></audio>
+
+    <div role="app-loader" class="pull-air noscroll" style="width:640px;height:100vh; background-color: #000000;">
+
+         <div class="pull-air" style="width: 640px;height: 100vh;background-color: #000000;">
+
+         </div>
+
+         <div class="pull-air hide" id="pp">
+             <div id="loader_1" class="pull-air">
+                 <div class="pull-air" id="xxk">
+                     <img src="Public/images/beijin/beijin.png" id="bei" class="pull-air"/>
+                     <img src="Public/images/beijin/guang.png" id="guang" class="pull-air"/>
+                     <img src="Public/images/beijin/guang_2.png" id="guang_2" class="pull-air"/>
+                     <div class="pull-air" style="width:660px;height: 100px;top: 550px;font-size: 40px;color: #ffffff;text-align: center;" id="loadertext">
+
+                     </div>
+                 </div>
+
+             </div>
+         </div>
+
+     </div>
+     <div role="app-content" class="pull-air" >
+
+     </div>
+</body>
+
+<script>
+    var openid;
+
+  	function pageInitialize(){
+        var top2=(app.device.height-830)/2;
+
+        $("#pp").css("top",top2);
+        $("#pp").show();
+        guan();
+        var pageloader =  new PageLoader("app.html");
+        pageloader.addEventListener(PageLoader.ImageLoading,function(e){
+            $("#loadertext").html(pageloader.process+"%");
+
+        })
+        pageloader.addEventListener(PageLoader.Complete,function(e){
+            $(app.role("app-loader")).remove();
+            app.role("app-content").append(e.data.content);
+
+            pageInitializes();
+
+        })
+        pageloader.start();
+
+
+        var getcs=$.urlGet();
+        openid=getcs['openid'];
+
+        fx();
+	}
+    function guan(){
+//        guang_2
+        var tm1=new TimelineMax ({repeat: -1});
+        TweenMax.set($("#guang_2"),{opacity:0.3});
+        var b=TweenMax.to($("#guang_2"),1,{opacity:1,ease: Power0.easeNone});
+        var c=TweenMax.to($("#guang_2"),1,{opacity:0.3,ease: Power0.easeNone});
+        tm1.add(b);
+        tm1.add(c);
+    }
+    function getext(){
+        openid+"acki8n308432k9skdn8mc73cs9ecs"
+
+        $.get( "http://thindovx.sinaapp.com/basic/oauth_userinfo.php" , {mid:1997,openid:openid,token:}, function(data) {
+
+        })
+    }
+    function fx(){
+        //分享请求
+        $.post( "http://campaign.honor.cn/4a-awards/zhiling/jssdk" , {}, function(data) {
+
+            data=JSON.parse(data);
+            //alert(data.appId);
+            wx.config({
+                debug: false,
+                appId: data.appId,
+                timestamp: data.timestamp,
+                nonceStr: data.nonceStr,
+                signature: data.signature,
+                jsApiList: [
+                    'onMenuShareTimeline',
+                    'onMenuShareAppMessage',
+                    'addCard',
+                    'chooseCard',
+                    'openCard',
+                    'hideMenuItems'
+                    // 所有要调用的 API 都要加到这个列表中
+                ],
+                aid:172140960,
+                uid: openid
+            });
+
+            wx.ready(function () {
+                shareOneFriend("荣耀小K儿童手表，您宝宝贴身的安全卫士。","我给孩子聘请了一个24小时360度全方位无死角的保镖，想知道是怎么回事吗？");
+                shareTimeline("荣耀小K儿童手表，您宝宝贴身的安全卫士。");
+            })
+        })
+    }
+
+</script>
+<script>
+
+
+    var shareUrl="http://campaign.honor.cn/watch-k/";
+    var logoUrl ="http://campaign.honor.cn/watch-k/Public/images/fxlogo.jpg";
+
+    function shareTimeline(title){
+        wx.onMenuShareTimeline({
+            title: title,
+            link: shareUrl,
+            imgUrl: logoUrl,
+            success: function () {
+                //_hmt.push(['_trackEvent', '{$codename}-byTimeline', 'Made by you']);
+
+            },
+            cancel: function () {
+
+            }
+        });
+    }
+
+    function shareOneFriend(title,desc){
+
+        wx.onMenuShareAppMessage({
+            title: title, // 分享标题
+            desc: desc, // 分享描述
+            link: shareUrl, // 分享链接
+            imgUrl:logoUrl,
+            type: '', // 分享类型,music、video或link，不填默认为link
+            dataUrl: '', // 如果type是music或video，则要提供数据链接，默认为空
+            success: function () {
+                //_hmt.push(['_trackEvent', '{$codename}-byFriend', 'Made by you']);
+
+
+
+            },
+            cancel: function () {
+
+            }
+        });
+
+    }
+</script>
+<script data-main="Public/lib/app.document" src="Public/lib/loader/require.js"></script>
+
+
+</html>

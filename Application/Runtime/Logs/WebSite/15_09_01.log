@@ -1,0 +1,55 @@
+[ 2015-09-01T12:20:09+08:00 ] 192.168.1.109 /huawei/xiaok/xk/public/images/beijin/xinfeng.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.021001s ]
+
+[ 2015-09-01T13:44:46+08:00 ] 192.168.1.109 /huawei/xiaok/xk/public/images/6-3/djbeijin.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-01T13:46:41+08:00 ] 192.168.1.109 /huawei/xiaok/xk/public/images/6/djbeijin.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-09-01T13:46:44+08:00 ] 192.168.1.109 /huawei/xiaok/xk/public/images/6/djbeijin.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-01T13:47:02+08:00 ] 192.168.1.109 /huawei/xiaok/xk/public/images/6/djbeijin.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-01T14:20:56+08:00 ] 192.168.1.109 /huawei/xiaok/xk/public/images/4/xinfeng_2.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-09-01T16:41:25+08:00 ] 192.168.1.109 /huawei/xiaok/xk/public/images/4/bai_2.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.044003s ]
+
+[ 2015-09-01T16:41:38+08:00 ] 192.168.1.109 /huawei/xiaok/xk/public/images/7/bai_2.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-09-01T16:43:15+08:00 ] 192.168.1.109 /huawei/xiaok/xk/public/images/7/bai_2.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-09-01T16:44:18+08:00 ] 192.168.1.109 /huawei/xiaok/xk/public/images/7/bai_2.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-09-01T18:40:07+08:00 ] 192.168.1.109 /huawei/xiaok/xk/public/images/8/timu.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.023001s ]
+

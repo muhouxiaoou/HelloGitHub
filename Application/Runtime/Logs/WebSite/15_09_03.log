@@ -1,0 +1,45 @@
+[ 2015-09-03T14:10:24+08:00 ] 192.168.1.109 /huawei/xiaok/xk/public/images/11/gg.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.062004s ]
+
+[ 2015-09-03T16:08:12+08:00 ] 192.168.1.109 /huawei/xiaok/xk/public/images/jizhi/xinixn.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-03T16:08:12+08:00 ] 192.168.1.109 /huawei/xiaok/xk/public/images/yonggan/xinixn.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-03T16:08:28+08:00 ] 192.168.1.109 /huawei/xiaok/xk/public/images/yonggan/xinixn.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-03T16:08:28+08:00 ] 192.168.1.109 /huawei/xiaok/xk/public/images/jizhi/xinixn.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-09-03T16:10:21+08:00 ] 192.168.1.109 /huawei/xiaok/xk/public/images/jizhi/xinixn.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-09-03T16:10:21+08:00 ] 192.168.1.109 /huawei/xiaok/xk/public/images/yonggan/xinixn.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-09-03T16:13:41+08:00 ] 192.168.1.109 /huawei/xiaok/xk/public/images/yonggan/xinixn.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-03T16:13:41+08:00 ] 192.168.1.109 /huawei/xiaok/xk/public/images/jizhi/xinixn.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+

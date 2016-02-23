@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="target-densitydpi=device-dpi, width=640px, user-scalable=no" />
+    <meta name="format-detection" content="telephone=no"/>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/css/app.zebra.css">
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/css/jquery.mCustomScrollbar.min.css">
+    <!--<link rel="stylesheet" type="text/css" href="http://192.168.1.8/jslib/malihu-custom-scrollbar-plugin-master/examples/style.css">-->
+    <script   src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+    <script data-main="__PUBLIC__/lib/app.document" src="__PUBLIC__/lib/loader/require.js"></script>
+    <style>
+        .mCSB_inside>.mCSB_container {
+                                                          margin-right: 0px;
+                                                      }
+        #mCSB_1_scrollbar_vertical{left:610px}
+        </style>
+</head>
+<body >
+
+
+<div role="app-content" class="pull-air noscroll fullContainer" style="width:100vw;height:100vh">
+    <div class="pull-air"    id="pageBg" >
+        <img src="__PUBLIC__/images/bingxiang/beijing.jpg" class="fullContainer" />
+    </div>
+
+
+    <div class="pull-air pull-alpha-0 hide"  id="page10" >
+        <div class="pull-air fullContainer" style="  background: #14524F" ></div>
+        <img src="__PUBLIC__/images/mingwangxin/guang.png" class="pull-air" id="guang"   />
+        <img src="__PUBLIC__/images/mingwangxin/ren.png" class="pull-air" id="ren"   />
+        <img src="__PUBLIC__/images/mingwangxin/qiu.png" class="pull-air pull-alhpa-0" id="qiu"   />
+    </div>
+    <div class="pull-air pull-alpha-0 hide"  id="page11" >
+        <img src="__PUBLIC__/images/5/shoushuo.png" class="pull-air" id="shoushuo"   />
+        <img src="__PUBLIC__/images/5/tongxun.png" class="pull-air hide" id="tongxun"  />
+        <!--<div class="pull-air autoscroll " style="top:216px;width: 100vw;height: 300px; background: darkred" id="addressUser">-->
+            <!--<div class="pull-air"    >-->
+
+                <!--<img src="__PUBLIC__/images/5/tongxun2.png" class="hide" id="tongxun2"  />-->
+                <!--<div id="userlist" class="pull-air">-->
+                    <!--<img src="__PUBLIC__/images/5/users.jpg"  id="userlistimg"  />-->
+                    <!--<div class="pull-air" style="width:640px;height:95px;top:400px; background: darkred; opacity: 0.3" id="gmyf"></div>-->
+                    <!--<div class="pull-air" style="width:640px;height:95px;top:700px; background: darkred; opacity: 0.3" id="xjr"></div>-->
+                    <!--<div class="pull-air" style="width:640px;height:95px;top:1000px; background: darkred; opacity: 0.3" id="mwx"></div>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+
+
+                <!-- content -->
+                <div class="mCustomScrollbar content fluid light pull-air"  id="addressUser" data-mcs-theme="inset-2-dark" style="top:216px;width: 100vw;height: 300px;">
+                    <div    style="width: 640px;height:1934px; background: red"  id="addressUserC" >
+                        <div class="pull-air"    >
+
+                            <img src="__PUBLIC__/images/5/tongxun2.png" class="hide" id="tongxun2"  />
+                            <div id="userlist" class="pull-air">
+                            <img src="__PUBLIC__/images/5/users.jpg"  id="userlistimg"  />
+                            <div class="pull-air" style="width:640px;height:95px;top:400px; background: darkred; opacity: 0.3" id="gmyf"></div>
+                            <div class="pull-air" style="width:640px;height:95px;top:700px; background: darkred; opacity: 0.3" id="xjr"></div>
+                            <div class="pull-air" style="width:640px;height:95px;top:1000px; background: darkred; opacity: 0.3" id="mwx"></div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+        <div style="position: fixed;bottom: 0;width:100vw;height:100px;background: #f8f8f8; border: 0px solid #000000;border-top-width: 3px">
+             <img class="pull-air" src="__PUBLIC__/images/5/weixin.png" id="weixinBut" />
+             <img class="pull-air" src="__PUBLIC__/images/5/qunmo.png" id="qunmoBut" />
+             <img class="pull-air" src="__PUBLIC__/images/5/huhai.png" id="huhai" />
+             <img class="pull-air" src="__PUBLIC__/images/5/wo.png" id="wo" />
+        </div>
+
+    </div>
+    <div class="pull-air pull-full pull-alpha-0 hide"  id="page12" style="background: #F0EFF5;" >
+            <div class="pull-air">
+                <img src="__PUBLIC__/images/6/beijing.png" class="pull-air"/>
+                <img src="__PUBLIC__/images/6/text-xjr.jpg" id="title-xjr" style="left:181px;top:65px" class="pull-air"/>
+                <img src="__PUBLIC__/images/6/text-gmyf.jpg" id="title-gmyf" style="left:181px;top:65px"  class="pull-air"/>
+                <img src="__PUBLIC__/images/6/text-mwx.jpg" id="title-mwx" style="left:181px;top:65px"  class="pull-air"/>
+            </div>
+            <div class="pull-air" style="width: 640px;height: 400px" id="nr">
+                    <div id="nr-xjr" class="pull-air hide">
+                        <img src="__PUBLIC__/images/7/xiaojianren/duihua_5.png" class="pull-air  pull-alpha-0" style="left:83px;top:167px" />
+                        <img src="__PUBLIC__/images/7/xiaojianren/duihua_6.png" class="pull-air  pull-alpha-0" style="left:17px;top:312px"/>
+                        <img src="__PUBLIC__/images/7/xiaojianren/duihua_7.png" class="pull-air  pull-alpha-0" style="left:83px;top:431px"/>
+                        <img src="__PUBLIC__/images/7/xiaojianren/duihua_8.png" class="pull-air  pull-alpha-0" style="left:17px;top:573px"/>
+                    </div>
+                <div id="nr-gmyf" class="hide">
+                    <img src="__PUBLIC__/images/7/guomingyuefu/duihua_1.png" class="pull-air  pull-alpha-0" style="left:83px;top:167px"/>
+                    <img src="__PUBLIC__/images/7/guomingyuefu/duihua_2.png" class="pull-air  pull-alpha-0" style="left:17px;top:311px"/>
+                    <img src="__PUBLIC__/images/7/guomingyuefu/duihua_3.png" class="pull-air  pull-alpha-0" style="left:83px;top:461px"/>
+                    <img src="__PUBLIC__/images/7/guomingyuefu/duihua_4.png" class="pull-air  pull-alpha-0" style="left:154px;top:612px"/>
+                </div>
+                <div id="nr-mwx" class="hide">
+                    <img src="__PUBLIC__/images/7/minwangxin/duihua_9.png" class="pull-air  pull-alpha-0" style="left:83px;top:167px"/>
+                    <img src="__PUBLIC__/images/7/minwangxin/duihua_10.png" class="pull-air  pull-alpha-0" style="left:17px;top:311px"/>
+                    <img src="__PUBLIC__/images/7/minwangxin/duihua_11.png" class="pull-air  pull-alpha-0" style="left:244px;top:462px"/>
+                    <img src="__PUBLIC__/images/7/minwangxin/duihua_12.png" class="pull-air  pull-alpha-0" style="left:17px;top:590px"/>
+                </div>
+            </div>
+
+            <div class="pull-fixed-bottom" id="jianpan" style="width: 640px;height:545px">
+                <img src="__PUBLIC__/images/6/dise.png" class="pull-air" />
+                <img src="__PUBLIC__/images/6/wenzi_3.png" id="text_xjr" class="pull-air" style="left:93px;top:17px" />
+                <img src="__PUBLIC__/images/6/wenzi_2.png" id="text_mwx" class="pull-air" style="left:91px;top:17px" />
+                <img src="__PUBLIC__/images/6/wenzi_1.png" id="text_gmyf"  class="pull-air" style="left:90px;top:17px" />
+            </div>
+
+            <div class="pull-fixed-bottom hide" id="jianpan2">
+                <img src="__PUBLIC__/images/7/jianpan.jpg"/>
+            </div>
+    </div>
+
+
+</div>
+
+
+
+<div role="app-mask" class="pull-air">
+    <div class="bgBlackOpacity-8  pull-air hide" id="xc-mask">
+        <img class="pull-air" src="__PUBLIC__/images/5/xxxx.png" style="left:41px;top:202px" />
+        <img class="pull-air" src="__PUBLIC__/images/5/xx.png" style="left:520px;top:213px" id="myCloseBut" />
+    </div>
+
+</div>
+
+
+</body>
+
+<script>
+    function pageInitializes(){
+//        if(  app.device.isIphone6 || app.device.isIphone6Plus){
+//             app.setContainer(app.role("app-content"));
+//        }
+//        if(app.device.isIphone4){
+//            $("#pageBg > img").height(1008)
+//        }else{
+//            app.setFullContainer($("#pageBg > img"))
+//        }
+        page10Ready()
+
+
+    }
+
+    var timu = 1;   //1 小贱人 2国民岳父 3冥王心
+    function page10Ready(){
+        $("#page10").show();
+        TweenMax.set($("#ren"),{top:657});
+        TweenMax.set($("#guang"),{top:173});
+        TweenMax.set($("#qiu"),{left:79});
+        page10fadeIn();
+    }
+
+    function page10fadeIn(){
+        TweenMax.to($("#page10"),1,{alpha:1});
+        TweenMax.to($("#qiu"),1,{top:173,delay:1,alpha:1,onComplete:page10fadeOut});
+    }
+
+    function page10fadeOut(){
+
+        TweenMax.to($("#page10"),1,{alpha:0,delay:1});
+        page11fadeIn()
+    }
+
+    function page11Ready(){
+
+        $("#addressUser").height(  app.device.height-216-100);
+
+        $("#addressUser").mCustomScrollbar();
+        $("#pageBg").hide();
+        $("#page11").show();
+        TweenMax.set($("#weixinBut"),{x:52});
+        TweenMax.set($("#qunmoBut"),{x:188});
+        TweenMax.set($("#huhai"),{x:353});
+        TweenMax.set($("#wo"),{x:518});
+
+
+        $("#weixinBut").click(function(){
+            if($("#weixinBut").attr("src")=="__PUBLIC__/images/5/weixin_2.png"){
+                $("#qunmoBut").attr("src","__PUBLIC__/images/5/qunmo.png")
+                $("#weixinBut").attr("src","__PUBLIC__/images/5/weixin.png")
+                $("#shoushuo").show();
+                $("#tongxun").hide();
+                $("#tongxun2").hide();
+                $("#addressUserC").height(1934)
+                $("#addressUser").scrollTop(0);
+
+
+            }
+        })
+        $("#qunmoBut").click(function(){
+                if($("#qunmoBut").attr("src")=="__PUBLIC__/images/5/qunmo.png"){
+                    $("#qunmoBut").attr("src","__PUBLIC__/images/5/qunmo_2.png")
+                    $("#weixinBut").attr("src","__PUBLIC__/images/5/weixin_2.png")
+                    $("#shoushuo").hide();
+                    $("#tongxun").show();
+                    $("#tongxun2").show();
+
+                    $("#addressUserC").height(1934+400)
+                    $("#addressUser").scrollTop(0);
+                }
+            })
+        $("#tongxun2").click(function(){
+            $("#xc-mask").show()
+        })
+        $("#userlistimg").click(function(){
+            $("#xc-mask").show()
+        })
+        $("#myCloseBut").click(function(){
+            $("#xc-mask").hide()
+        })
+
+        $("#xjr").click(function(){
+            if(timu==1){
+                page11fadeOut()
+            }else{
+                $("#xc-mask").show()
+            }
+        })
+        $("#gmyf").click(function(){
+            if(timu==2){
+                page11fadeOut()
+            }else{
+                $("#xc-mask").show()
+            }
+        })
+        $("#mwx").click(function(){
+            if(timu==3){
+                page11fadeOut()
+            }else{
+                $("#xc-mask").show()
+            }
+
+        })
+
+    }
+    function page11fadeIn(){
+        page11Ready();
+        TweenMax.to($("#page10"),1,{alpha:1});
+        TweenMax.to($("#page11"),1,{alpha:1,delay:1});
+//        $("#addressUser").mCustomScrollbar({
+//            theme:"minimal"
+//        });
+    }
+    function page11fadeOut(){
+        $("#page11").hide();
+        page12fadeIn();
+    }
+
+
+    function page12fadeIn(){
+        switch (timu)
+        {
+            case 1:
+                    $("#text_xjr").show();
+                    $("#text_mwx").hide();
+                    $("#text_gmyf").hide();
+                    $("#title-xjr").show();
+                    $("#title-gmyf").hide();
+                    $("#title-mwx").hide();
+                break;
+            case 2:
+                    $("#text_xjr").hide();
+                    $("#text_mwx").hide();
+                    $("#text_gmyf").show();
+                    $("#title-xjr").hide();
+                    $("#title-gmyf").show();
+                    $("#title-mwx").hide();
+                break;
+            case 3:
+                    $("#text_xjr").hide();
+                    $("#text_mwx").show();
+                    $("#text_gmyf").hide();
+                    $("#title-xjr").hide();
+                    $("#title-gmyf").hide();
+                    $("#title-mwx").show();
+                break;
+
+        }
+        $("#page12").show();
+        TweenMax.to($("#page12"),1,{alpha:1,deplay:1});
+
+        $("#jianpan").click(function(){
+            $(this).hide();
+            $("#jianpan2").show();
+            var list
+            switch (timu)
+            {
+                case 1:
+                    $("#nr-xjr").show();
+                    list= $("#nr-xjr > img");
+                    break;
+                case 2:
+                    $("#nr-gmyf").show();
+                    list= $("#nr-gmyf > img");
+                    break;
+                case 3:
+                    $("#nr-mwx").show();
+                    list= $("#nr-mwx > img");
+                    break;
+            }
+
+
+            TweenMax.to(list[0],1,{alpha:1});
+            TweenMax.to(list[1],1,{alpha:1,delay:1});
+            TweenMax.to(list[2],1,{alpha:1,delay:2});
+            TweenMax.to(list[3],1,{alpha:1,delay:3});
+
+            setTimeout(page12fadeOut,5000);
+        })
+    }
+
+    function page12fadeOut(){
+
+    }
+
+
+</script>
+
+</html>

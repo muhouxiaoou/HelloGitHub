@@ -1,0 +1,2 @@
+beijin{left:81px;top:216px}
+xinxin{left:113px:top:719px}

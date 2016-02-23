@@ -1,0 +1,6 @@
+shuozhi{left:297;top:656}
+wenzi_1{left:31;top:207}
+wenzi_2{left:139;top:95}
+wenzi_3{left:50;top:43}
+xinfeng{left:261;top:515}
+xinfeng_2{left:222;top:408}

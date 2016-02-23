@@ -1,0 +1,4 @@
+anniu_1{left:337px;top:866px}
+anniu_2{left:78px;top:867px}
+beijin{left:81px;top:216px}
+jiz{left:143px:top:718px}

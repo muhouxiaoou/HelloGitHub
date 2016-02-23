@@ -1,0 +1,6 @@
+xx{left:86;top:183}
+wen{left:249;top:33}
+zi_1{left:115;top:563}
+zi_2{left:87;top:564}
+zi_3{left:80;top:563}
+zi_4{left:109;top:566}
